@@ -18,4 +18,4 @@ while True:
     input_rows = [[sg.Text(source, size=(15, 1)), sg.Text(age, size=(15, 1))]
                   for source, age in game_ratings]
     layout = header + input_rows
-    window = sg.Window('Movie Rating with Genres', layout)
+    window = sg.Window('Game age ratings', layout)
